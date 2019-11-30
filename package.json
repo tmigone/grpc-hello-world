@@ -1,0 +1,23 @@
+{
+  "name": "grpc-hello-world",
+  "version": "1.0.0",
+  "description": "Checking out gRPC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmigone/grpc-hello-world.git"
+  },
+  "author": "Tomás Migone <tomasmigone@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmigone/grpc-hello-world/issues"
+  },
+  "homepage": "https://github.com/tmigone/grpc-hello-world#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.3",
+    "grpc": "^1.24.2"
+  }
+}
